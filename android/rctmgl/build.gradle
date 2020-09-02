@@ -13,6 +13,7 @@ android {
         targetSdkVersion safeExtGet('targetSdkVersion', 26)
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
     }
 
     compileOptions {
@@ -35,6 +36,7 @@ dependencies {
 
     // React Native
     implementation "com.facebook.react:react-native:+"
+    implementation 'com.android.support:multidex:1.0.0'
 
 //     Mapbox SDK
     implementation 'flightmapsdk.flightmaplightsdk:flightmap:1.4.0'

@@ -1,5 +1,5 @@
 import React from 'react';
-import {MapView, Camera} from '@react-native-mapbox-gl/maps';
+import {MapView, Camera} from '@react-native-flightmap-gl/flightmap';
 
 import sheet from '../styles/sheet';
 

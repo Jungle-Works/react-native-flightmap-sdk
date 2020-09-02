@@ -1,0 +1,10 @@
+R_DEF: Internal format may change without notice
+local
+drawable empty
+drawable empty_drawable
+drawable red_marker
+id annotation_img
+id annotation_layout
+id annotation_view_container
+layout annotation
+string app_name

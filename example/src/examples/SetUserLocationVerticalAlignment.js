@@ -1,5 +1,5 @@
 import React from 'react';
-import MapboxGL from '@react-native-mapbox-gl/maps';
+import MapboxGL from '@react-native-flightmap-gl/flightmap';
 
 import sheet from '../styles/sheet';
 import {onSortOptions} from '../utils';

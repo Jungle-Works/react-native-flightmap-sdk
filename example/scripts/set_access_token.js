@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const accessToken = fs.readFileSync(path.join('./', 'accesstoken'));
+const accessToken = "";
 
 if (!accessToken) {
   process.exit(1);

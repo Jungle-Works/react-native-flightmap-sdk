@@ -7,7 +7,7 @@ import {
   CircleLayer,
   Camera,
   Images,
-} from '@react-native-mapbox-gl/maps';
+} from '@react-native-flightmap-gl/flightmap';
 
 const features = {
   type: 'FeatureCollection',

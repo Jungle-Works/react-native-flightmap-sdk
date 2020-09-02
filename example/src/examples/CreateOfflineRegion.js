@@ -7,7 +7,7 @@ import {
   Dimensions,
   StyleSheet,
 } from 'react-native';
-import MapboxGL from '@react-native-mapbox-gl/maps';
+import MapboxGL from '@react-native-flightmap-gl/flightmap';
 import geoViewport from '@mapbox/geo-viewport';
 
 import sheet from '../styles/sheet';

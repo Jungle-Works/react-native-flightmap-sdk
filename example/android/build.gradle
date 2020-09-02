@@ -3,7 +3,7 @@
 buildscript {
     ext {
         buildToolsVersion = "28.0.3"
-        minSdkVersion = 16
+        minSdkVersion = 19
         compileSdkVersion = 28
         targetSdkVersion = 28
     }
@@ -33,6 +33,9 @@ allprojects {
 
         google()
         jcenter()
+        maven { url 'https://dl.bintray.com/flightmap/com.flightmap' }
+        maven { url 'https://dl.bintray.com/flightmap/flightmapnavigationsdk/' }
+        maven { url 'https://dl.bintray.com/flightmap/flightmapjavasdk' }
         maven { url 'https://jitpack.io' }
     }
 }

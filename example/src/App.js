@@ -1,5 +1,5 @@
 import React from 'react';
-import MapboxGL from '@react-native-mapbox-gl/maps';
+import MapboxGL from '@react-native-flightmap-gl/flightmap';
 import {StyleSheet, Text, View, YellowBox, SafeAreaView} from 'react-native';
 import {createStackNavigator, TransitionPresets} from 'react-navigation-stack';
 import {createAppContainer} from 'react-navigation';
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
   },
 });
 
-MapboxGL.setAccessToken('SET_ACCESS_TOKEN_HERE');
+MapboxGL.setAccessToken('');
 
 Icon.loadFont();
 
