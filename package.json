@@ -1,0 +1,136 @@
+{
+  "_from": "@react-native-flightmap-gl/flightmap",
+  "_id": "@react-native-flightmap-gl/flightmap@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-8FlRrLqSXHZZCBYnzeRWmG4kcxiiPW4pFAXd5ACblSrSxJ50aRBNFpr3z66fSrsAkNRO98e8DI4eg6hTYLa66g==",
+  "_location": "/@react-native-flightmap-gl/flightmap",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@react-native-flightmap-gl/flightmap",
+    "name": "@react-native-flightmap-gl/flightmap",
+    "escapedName": "@react-native-flightmap-gl%2fflightmap",
+    "scope": "@react-native-flightmap-gl",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@react-native-flightmap-gl/flightmap/-/flightmap-1.0.2.tgz",
+  "_shasum": "1b0723db82dfdcb1e83fa49ae0e375df3c69abe5",
+  "_spec": "@react-native-flightmap-gl/flightmap",
+  "_where": "C:\\Users\\HP\\Desktop\\reactproject\\FlightMapDemoApp",
+  "author": {
+    "name": "Manan"
+  },
+  "bugs": {
+    "url": "https://github.com/react-native-mapbox-gl/maps/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@mapbox/geo-viewport": ">= 0.4.0",
+    "@turf/along": ">= 4.0.0 <7.0.0",
+    "@turf/distance": ">= 4.0.0 <7.0.0",
+    "@turf/helpers": ">= 4.6.0 <7.0.0",
+    "@turf/length": ">= 4.6.0 <7.0.0",
+    "@turf/nearest-point-on-line": ">= 4.0.0 <7.0.0",
+    "debounce": "^1.2.0"
+  },
+  "deprecated": false,
+  "description": "A Flightmap GL react native module for creating custom maps",
+  "devDependencies": {
+    "@babel/core": "7.5.0",
+    "@babel/plugin-proposal-class-properties": "7.5.0",
+    "@babel/plugin-transform-exponentiation-operator": "7.2.0",
+    "@babel/plugin-transform-flow-strip-types": "7.4.4",
+    "@babel/plugin-transform-runtime": "7.5.0",
+    "@babel/runtime": "7.5.0",
+    "@react-native-community/eslint-config": "^1.0.0",
+    "@sinonjs/fake-timers": "^6.0.0",
+    "@types/geojson": "^7946.0.7",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "25.1.0",
+    "documentation": "12.1.2",
+    "ejs": "^2.5.7",
+    "ejs-lint": "^0.3.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-fp": "^2.3.0",
+    "eslint-plugin-import": "2.20.2",
+    "flow-bin": "^0.95.1",
+    "husky": "4.0.0",
+    "jest": "25.1.0",
+    "jest-cli": "^25.1.0",
+    "lint-staged": "^10.1.3",
+    "metro-react-native-babel-preset": "0.49.1",
+    "node-dir": "0.1.17",
+    "prettier": "^2.0.4",
+    "react": "16.8.6",
+    "react-docgen": "^5.0.0-beta.1",
+    "react-native": "0.59.10",
+    "react-native-testing-library": "^1.11.1",
+    "react-test-renderer": "16.8.3",
+    "typescript": "3.8.3"
+  },
+  "homepage": "http://app.flightmap.io/",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && npm run generate"
+    }
+  },
+  "jest": {
+    "preset": "react-native",
+    "collectCoverageFrom": [
+      "javascript/**/*.js"
+    ],
+    "setupFiles": [
+      "./setup-jest.js",
+      "./__tests__/__mocks__/react-native.mock.js"
+    ],
+    "modulePathIgnorePatterns": [
+      "example",
+      "__tests__/__mocks__"
+    ]
+  },
+  "keywords": [
+    "gl",
+    "ios",
+    "android",
+    "flightmap",
+    "react-native"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "yarn lint"
+    ]
+  },
+  "main": "./javascript/index.js",
+  "name": "@react-native-flightmap-gl/flightmap",
+  "peerDependencies": {
+    "prop-types": ">=15.5.8",
+    "react": "^16.6.1",
+    "react-native": ">=0.59.9"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jungleworks/FlightmapSDKDemo-iOS.git"
+  },
+  "scripts": {
+    "fetch:style:spec": ". ./scripts/download-style-spec.sh",
+    "format": "npm run lint -- --fix",
+    "generate": "node ./scripts/autogenerate",
+    "lint": "eslint . --ignore-pattern 'example' --ignore-pattern 'scripts' --fix && cd example/ && eslint . --ignore-pattern 'scripts' --fix",
+    "test": "npm run lint && npm run unittest",
+    "unittest": "jest",
+    "unittest:single": "jest --testNamePattern"
+  },
+  "version": "1.0.4"
+}
