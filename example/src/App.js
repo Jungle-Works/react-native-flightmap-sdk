@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
   },
 });
 
-MapboxGL.setAccessToken('');
+MapboxGL.setAccessToken('SET_ACCESS_TOKEN_HERE');
 
 Icon.loadFont();
 
