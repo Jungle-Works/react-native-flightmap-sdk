@@ -4,8 +4,6 @@
 
 # React Native Flightmap GL Demo
 
-![Animations](/assets/Animations.png) ![Annotations](/assets/Annotations.png) ![User Location](/assets/User_location.png) ![Tracking Modes](/assets/Tracking_modes.png) ![Camera Angle](/assets/Camera_pitch.png) ![Region](/assets/Region.png)  
-
 Demo Application for [React Native Flightmap GL](../README.md)
 
 ## Sign up for Flightmaps

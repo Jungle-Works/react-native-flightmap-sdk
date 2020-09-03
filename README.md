@@ -1,4 +1,5 @@
 # Flightmap Maps SDK for React Native
+![Animations](/assets/Animations.png =200x400) ![Annotations](/assets/Annotations.png =200x400) ![User Location](/assets/User_location.png =200x400) ![Tracking Modes](/assets/Tracking_modes.png =200x400) ![Camera Angle](/assets/Camera_pitch.png =200x400) ![Region](/assets/Region.png =200x400)  
 
 _A React Native library for building maps with the [FLightmap Maps SDK for iOS](https://github.com/jungleworks/FlightmapSDKDemo-iOS) and [Flightmap Maps SDK for Android](https://github.com/jungleworks/FlightmapSDKDemo-Android)_
 
