@@ -86,7 +86,7 @@ end
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
   # default version
-  pod 'react-native-mapbox-gl', :path => '../../', :inhibit_warnings => false
+  pod 'react-native-flightmap-gl', :path => '../../', :inhibit_warnings => false
 
   # for use_frameworks!
   # pod 'react-native-mapbox-gl/DynamicLibrary', :path => '../../'
