@@ -76,7 +76,7 @@ FlightmapGL.setConnected(true);
 ### Style URL
 Default: https://maps.flightmap.io/styles//style-bright.json?fm_token=<YOUR_ACCESS_TOKEN> <br/>
 Dark: https://maps.flightmap.io/styles//style-dark.json?fm_token=<YOUR_ACCESS_TOKEN> <br/>
-**Note: Flightmap will automatically append fm_token with your style URL , refer to the example below.
+**Note: Flightmap will automatically append fm_token with your style URL , refer to the example below.**
 
 
 ### Show a map
