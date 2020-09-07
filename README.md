@@ -73,16 +73,10 @@ import FlightmapGL from "@react-native-flightmap-gl/flightmap";
 FlightmapGL.setConnected(true);
 ```
 
-### Disabling Telemetry
+### Style URL
+Default: https://maps.flightmap.io/styles//style-bright.json?fm_token=<YOUR_ACCESS_TOKEN>
+Dark: https://maps.flightmap.io/styles//style-dark.json?fm_token=<YOUR_ACCESS_TOKEN>
 
-By default flightmap collects telemetry.
-If you would like to programmatically disable this within your app add the code below.
-
-```js
-  componentDidMount() {
-    FlightmapGL.setTelemetryEnabled(false);
-  }
-```
 
 ### Show a map
 
