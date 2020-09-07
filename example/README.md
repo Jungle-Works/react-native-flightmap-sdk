@@ -1,6 +1,8 @@
+<p align="center">
 <a href="https://app.flightmap.io">
   <img src="/assets/flightmap_logo.png" width="500"/>
 </a>
+</p>
 
 # React Native Flightmap GL Demo
 
